@@ -4,7 +4,8 @@
 ###################################
 
 # Use the following to enable MPI support.
-GOFLAGS = -tags mpi
+# GOFLAGS = -tags mpi
+# GOFLAGS = -tags mpi
 
 # The following are Open MPI specific.
 export CGO_CFLAGS = $(shell mpicc --showme:compile)
